@@ -1,1 +1,3 @@
 # Left-Rotation--DS
+
+This code problem by shifting the elements of a list to the left by a specified number of positions. The rotateLeft function calculates the effective rotation using the remainder of the division of the rotation count by the list size. It then constructs a new list by appending elements from the rotation index to the end, followed by elements from the beginning up to the rotation index. The Main method reads the input values, calls the rotateLeft function, and writes the result to the output. The code separates the rotation logic from input and output operations for better clarity and structure.
